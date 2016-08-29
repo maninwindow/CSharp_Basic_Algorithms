@@ -3,3 +3,9 @@ D:\ASP.NET\DotNetPractices\DotNetPractices\obj\Debug\DotNetPractices.pdb
 D:\ASP.NET\DotNetPractices\DotNetPractices\bin\Debug\DotNetPractices.exe.config
 D:\ASP.NET\DotNetPractices\DotNetPractices\bin\Debug\DotNetPractices.exe
 D:\ASP.NET\DotNetPractices\DotNetPractices\obj\Debug\DotNetPractices.exe
+D:\C#\Projects\DotNetPractices\DotNetPractices\bin\Debug\DotNetPractices.exe.config
+D:\C#\Projects\DotNetPractices\DotNetPractices\obj\Debug\DotNetPractices.exe
+D:\C#\Projects\DotNetPractices\DotNetPractices\obj\Debug\DotNetPractices.pdb
+D:\C#\Projects\DotNetPractices\DotNetPractices\bin\Debug\DotNetPractices.exe
+D:\C#\Projects\DotNetPractices\DotNetPractices\bin\Debug\DotNetPractices.pdb
+D:\C#\Projects\DotNetPractices\DotNetPractices\obj\Debug\DotNetPractices.csprojResolveAssemblyReference.cache
