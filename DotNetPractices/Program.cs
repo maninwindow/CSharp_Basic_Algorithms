@@ -29,15 +29,15 @@ namespace DotNetPractices
 
             //Array Covariance
             //object[] objArr = new object[3];
-            string[] daysOfWeek = {
-                                    "Monday",
-                                    "Tuesday",
-                                    "Wednesday",
-                                    "Thersday",
-                                    "Friday",
-                                    "Saturday",
-                                    "Sunday"
-                                };
+            //string[] daysOfWeek = {
+            //                        "Monday",
+            //                        "Tuesday",
+            //                        "Wednesday",
+            //                        "Thersday",
+            //                        "Friday",
+            //                        "Saturday",
+            //                        "Sunday"
+            //                    };
             //int indexOfW = Array.FindIndex(daysOfWeek, x => x[0] == 'W');
             //Console.WriteLine(indexOfW);
 
@@ -81,7 +81,11 @@ namespace DotNetPractices
             //CountFrequencyOfElements.Frequency();
             //MaximumAndMinimumElement.FindMaxAndMinElement();
             //SeperateOddAndEvenIntegers.OddAndEvenIntegers();
-            SortElementsInAscendingOrder.SortAscendingOrder();
+            //SortElementsInAscendingOrder.SortAscendingOrder();
+            //InsertNewValue.InsertValue();
+            //DeleteAnArray.DeleteArray();
+            //FindSecondLargestElement.FindSecondLargest();
+            FindSecondSmallestElement.FindSecondSmallest();
         }
     }
 }
