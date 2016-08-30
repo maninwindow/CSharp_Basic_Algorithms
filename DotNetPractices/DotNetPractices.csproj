@@ -47,6 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArraysPractice.cs" />
+    <Compile Include="Arrays\CheckDuplicatedElements.cs" />
+    <Compile Include="Arrays\CopyArrayToArray.cs" />
+    <Compile Include="Arrays\MergeArraysOfSameSize.cs" />
+    <Compile Include="Arrays\UniqueValues.cs" />
     <Compile Include="DataTypes\DisplayTriangle.cs" />
     <Compile Include="DataTypes\TestPassword.cs" />
     <Compile Include="GradeStatistics.cs" />

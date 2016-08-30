@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DotNetPractices.Arrays;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -68,9 +69,15 @@ namespace DotNetPractices
             //Console.ReadLine();
 
             //Binary search
-            Array.Sort(daysOfWeek);
-            int indexOfSun = Array.BinarySearch(daysOfWeek, "Sunday");
-            Console.WriteLine("Index is:" + indexOfSun);
+            //Array.Sort(daysOfWeek);
+            //int indexOfSun = Array.BinarySearch(daysOfWeek, "Sunday");
+            //Console.WriteLine("Index is:" + indexOfSun);
+
+            /*Copy one Array to another Array*/
+            //CopyArrayToArray.CopyArray();
+            //CheckDuplicatedElements.DuplicatedElements();
+            //UniqueValues.UniqueArrays();
+            MergeArraysOfSameSize.MergeArrays();
         }
     }
 }
