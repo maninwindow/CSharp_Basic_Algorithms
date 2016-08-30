@@ -73,11 +73,15 @@ namespace DotNetPractices
             //int indexOfSun = Array.BinarySearch(daysOfWeek, "Sunday");
             //Console.WriteLine("Index is:" + indexOfSun);
 
-            /*Copy one Array to another Array*/
+            /*Array Practices*/
             //CopyArrayToArray.CopyArray();
             //CheckDuplicatedElements.DuplicatedElements();
             //UniqueValues.UniqueArrays();
-            MergeArraysOfSameSize.MergeArrays();
+            //MergeArraysOfSameSize.MergeArrays();
+            //CountFrequencyOfElements.Frequency();
+            //MaximumAndMinimumElement.FindMaxAndMinElement();
+            //SeperateOddAndEvenIntegers.OddAndEvenIntegers();
+            SortElementsInAscendingOrder.SortAscendingOrder();
         }
     }
 }
