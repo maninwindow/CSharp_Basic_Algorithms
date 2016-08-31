@@ -85,7 +85,21 @@ namespace DotNetPractices
             //InsertNewValue.InsertValue();
             //DeleteAnArray.DeleteArray();
             //FindSecondLargestElement.FindSecondLargest();
-            FindSecondSmallestElement.FindSecondSmallest();
+            //FindSecondSmallestElement.FindSecondSmallest();
+            Read2DArray.ReadArray();
+            //AddTwoMatrices.TwoMatrices();
+            //SubtractionOfTwoMatrices.Subtraction();
+            //MultiplicationOfTwoMatrices.Multiplication();
+            //TransposeMatrix.Transpose();
+            //FindDiagonalsOfMatrix.SumOfLeftDiagonals();
+            //FindDiagonalsOfMatrix.SumOfRightDiagonals();
+            //FindSumOfRowsAnColumnsOfMatrix.SumOfRowsAnColumnsOfAMatrix();
+            //DisplayTriangular.LowerTriangular();
+            //DisplayTriangular.UpperTriangular();
+            //CalculateDeteminant.Determinant();
+            //SpraseMatrix.DetermineSparseMatrix();
+            //CheckTwoMatrixAreEqual.AreTwoMatrixEqual();
+            //CheckIdentityMatrix.CheckIndentity();
         }
     }
 }
