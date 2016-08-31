@@ -50,6 +50,10 @@
     <Compile Include="Arrays\CheckDuplicatedElements.cs" />
     <Compile Include="Arrays\CopyArrayToArray.cs" />
     <Compile Include="Arrays\CountFrequencyOfElements.cs" />
+    <Compile Include="Arrays\DeleteAnArray.cs" />
+    <Compile Include="Arrays\FindSecondLargestElement.cs" />
+    <Compile Include="Arrays\FindSecondSmallestElement.cs" />
+    <Compile Include="Arrays\InsertNewValue.cs" />
     <Compile Include="Arrays\MaximumAndMinimumElement.cs" />
     <Compile Include="Arrays\MergeArraysOfSameSize.cs" />
     <Compile Include="Arrays\SeperateOddAndEvenIntegers.cs" />
