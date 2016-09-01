@@ -1,4 +1,5 @@
 ﻿using DotNetPractices.Arrays;
+using DotNetPractices.SearchingAndSorting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -100,6 +101,9 @@ namespace DotNetPractices
             //SpraseMatrix.DetermineSparseMatrix();
             //CheckTwoMatrixAreEqual.AreTwoMatrixEqual();
             //CheckIdentityMatrix.CheckIndentity();
+
+            /*Search and sort*/
+            //ShellSort.ShellSortPractice();
         }
     }
 }
