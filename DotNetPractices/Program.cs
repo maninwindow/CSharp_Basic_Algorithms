@@ -87,7 +87,7 @@ namespace DotNetPractices
             //DeleteAnArray.DeleteArray();
             //FindSecondLargestElement.FindSecondLargest();
             //FindSecondSmallestElement.FindSecondSmallest();
-            Read2DArray.ReadArray();
+            //Read2DArray.ReadArray();
             //AddTwoMatrices.TwoMatrices();
             //SubtractionOfTwoMatrices.Subtraction();
             //MultiplicationOfTwoMatrices.Multiplication();
@@ -104,6 +104,7 @@ namespace DotNetPractices
 
             /*Search and sort*/
             //ShellSort.ShellSortPractice();
+            CheckCertainWordInText.ExtractList();
         }
     }
 }
