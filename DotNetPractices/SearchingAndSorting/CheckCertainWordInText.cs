@@ -27,7 +27,7 @@ namespace DotNetPractices.SearchingAndSorting
                             break;
                     }
                 }
-                if (currentWordIndex == word.Length - 1)
+                if (currentWordIndex == word.Length)
                     result.Add(currentIndex);
                 currentIndex++;  
             }
@@ -36,7 +36,7 @@ namespace DotNetPractices.SearchingAndSorting
 
         public static void ExtractList()
         {
-            List<int> listOfIndex = GetWordsOccurrencesIndexes("is", "This is mine");
+            List<int> listOfIndex = GetWordsOccurrencesIndexes("This", "This is mine");
             foreach (int item in listOfIndex)
             {
                 Console.WriteLine(item);
