@@ -104,7 +104,7 @@ namespace DotNetPractices
 
             /*Search and sort*/
             //ShellSort.ShellSortPractice();
-            //CheckCertainWordInText.ExtractList();
+	    heckCertainWordInText.ExtractList();
         }
     }
 }
