@@ -67,6 +67,8 @@
     <Compile Include="GradeBook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchingAndSorting\BogoSort.cs" />
+    <Compile Include="SearchingAndSorting\BubbleSort.cs" />
     <Compile Include="SearchingAndSorting\CheckCertainWordInText.cs" />
     <Compile Include="SearchingAndSorting\ShellSort.cs" />
   </ItemGroup>
