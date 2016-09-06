@@ -70,6 +70,14 @@
     <Compile Include="SearchingAndSorting\BogoSort.cs" />
     <Compile Include="SearchingAndSorting\BubbleSort.cs" />
     <Compile Include="SearchingAndSorting\CheckCertainWordInText.cs" />
+    <Compile Include="SearchingAndSorting\CountingSort.cs" />
+    <Compile Include="SearchingAndSorting\HeapSort.cs" />
+    <Compile Include="SearchingAndSorting\InsertionSort.cs" />
+    <Compile Include="SearchingAndSorting\MergeSort.cs" />
+    <Compile Include="SearchingAndSorting\PermutationSort.cs" />
+    <Compile Include="SearchingAndSorting\QuickSort.cs" />
+    <Compile Include="SearchingAndSorting\RadixSort.cs" />
+    <Compile Include="SearchingAndSorting\SelectionSort.cs" />
     <Compile Include="SearchingAndSorting\ShellSort.cs" />
   </ItemGroup>
   <ItemGroup>
