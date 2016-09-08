@@ -106,7 +106,7 @@ namespace DotNetPractices
             //ShellSort.ShellSortPractice();
             //CheckCertainWordInText.ExtractList();
             //BogoSort.BogoSortPractice();
-            BubbleSort.BubbleSortPractice();
+            //BubbleSort.BubbleSortPractice();
         }
     }
 }
