@@ -107,6 +107,9 @@ namespace DotNetPractices
             //CheckCertainWordInText.ExtractList();
             //BogoSort.BogoSortPractice();
             //BubbleSort.BubbleSortPractice();
-        }
+
+            /*String*/
+            
+        } 
     }
 } 
