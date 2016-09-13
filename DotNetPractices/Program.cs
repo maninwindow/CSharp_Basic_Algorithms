@@ -110,7 +110,10 @@ namespace DotNetPractices
             //BubbleSort.BubbleSortPractice();
 
             /*String*/
-            CopyOneStringIntoAnother.CopyStringToAnother();
+            //CopyOneStringIntoAnother.CopyStringToAnother();
+            //CompareTwoString.CompareString();
+            //CountNumberOfCharacters.CountCharacters();
+            //CountNumberOfWordsInString.CountNumberOfWord();
         } 
     }
 } 
