@@ -11,7 +11,7 @@ namespace DotNetPractices.String
         public static void CountNumberOfWord()
         {
             string str;
-            int i, wrd, l;
+            int  wrd, l;
 
             Console.Write("\n\nCount the total number of words in a string :\n");
             Console.Write("------------------------------------------------------\n");

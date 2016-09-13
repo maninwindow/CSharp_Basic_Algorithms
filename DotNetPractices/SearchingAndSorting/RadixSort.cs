@@ -26,23 +26,23 @@ namespace DotNetPractices.SearchingAndSorting
                     Array.Copy(tmp, 0, arr, arr.Length - j, j);
                 }
             }
-            static void Main(string[] args)  
-        {
+        //    static void Main(string[] args)  
+        //{
 
-                int[] arr = new int[] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
-                Console.WriteLine("\nOriginal array : ");
-                foreach (var item in arr)
-                {
-                    Console.Write(" " + item);
-                }
+        //        int[] arr = new int[] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
+        //        Console.WriteLine("\nOriginal array : ");
+        //        foreach (var item in arr)
+        //        {
+        //            Console.Write(" " + item);
+        //        }
 
-                Sort(arr);
-                Console.WriteLine("\nSorted array : ");
-                foreach (var item in arr)
-                {
-                    Console.Write(" " + item);
-                }
-                Console.WriteLine("\n");
-            }
+        //        Sort(arr);
+        //        Console.WriteLine("\nSorted array : ");
+        //        foreach (var item in arr)
+        //        {
+        //            Console.Write(" " + item);
+        //        }
+        //        Console.WriteLine("\n");
+        //    }
     }
 }

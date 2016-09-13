@@ -58,27 +58,27 @@ namespace DotNetPractices.SearchingAndSorting
                 }
             }
         }
-        static void Main(string[] args)
-        {
-            int[] arr = new int[] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
+        //static void Main(string[] args)
+        //{
+        //    int[] arr = new int[] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
 
-            Console.WriteLine("Original array : ");
-            foreach (var item in arr)
-            {
-                Console.Write(" " + item);
-            }
-            Console.WriteLine();
+        //    Console.WriteLine("Original array : ");
+        //    foreach (var item in arr)
+        //    {
+        //        Console.Write(" " + item);
+        //    }
+        //    Console.WriteLine();
 
-            Quick_Sort(arr, 0, arr.Length - 1);
+        //    Quick_Sort(arr, 0, arr.Length - 1);
 
-            Console.WriteLine();
-            Console.WriteLine("Sorted array : ");
+        //    Console.WriteLine();
+        //    Console.WriteLine("Sorted array : ");
 
-            foreach (var item in arr)
-            {
-                Console.Write(" " + item);
-            }
-            Console.WriteLine();
-        }
+        //    foreach (var item in arr)
+        //    {
+        //        Console.Write(" " + item);
+        //    }
+        //    Console.WriteLine();
+        //}
     }
 }

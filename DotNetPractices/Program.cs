@@ -1,5 +1,6 @@
 ﻿using DotNetPractices.Arrays;
 using DotNetPractices.SearchingAndSorting;
+using DotNetPractices.String;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -109,7 +110,7 @@ namespace DotNetPractices
             //BubbleSort.BubbleSortPractice();
 
             /*String*/
-            
+            CopyOneStringIntoAnother.CopyStringToAnother();
         } 
     }
 } 
