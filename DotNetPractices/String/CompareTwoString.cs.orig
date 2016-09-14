@@ -33,7 +33,10 @@ namespace DotNetPractices.String
                     {
                         yn = 1;
                         i = l1;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 14ee7fed7fa7355eaff57e6508713397437296d7
                     }
                 }
             }
@@ -62,4 +65,8 @@ namespace DotNetPractices.String
             }
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 14ee7fed7fa7355eaff57e6508713397437296d7

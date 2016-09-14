@@ -108,12 +108,18 @@ namespace DotNetPractices
             //CheckCertainWordInText.ExtractList();
             //BogoSort.BogoSortPractice();
             //BubbleSort.BubbleSortPractice();
+<<<<<<< HEAD
+        }
+    }
+}
+=======
 
             /*String*/
             //CopyOneStringIntoAnother.CopyStringToAnother();
             //CompareTwoString.CompareString();
             //CountNumberOfCharacters.CountCharacters();
             //CountNumberOfWordsInString.CountNumberOfWord();
-        }
+        } 
     }
-}
+} 
+>>>>>>> 14ee7fed7fa7355eaff57e6508713397437296d7

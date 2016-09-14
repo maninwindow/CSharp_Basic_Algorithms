@@ -67,10 +67,24 @@
     <Compile Include="GradeBook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchingAndSorting\BinarySearch.cs" />
     <Compile Include="SearchingAndSorting\BogoSort.cs" />
     <Compile Include="SearchingAndSorting\BubbleSort.cs" />
     <Compile Include="SearchingAndSorting\CheckCertainWordInText.cs" />
+    <Compile Include="SearchingAndSorting\CountingSort.cs" />
+    <Compile Include="SearchingAndSorting\HeapSort.cs" />
+    <Compile Include="SearchingAndSorting\InsertionSort.cs" />
+    <Compile Include="SearchingAndSorting\MergeSort.cs" />
+    <Compile Include="SearchingAndSorting\PermutationSort.cs" />
+    <Compile Include="SearchingAndSorting\QuickSort.cs" />
+    <Compile Include="SearchingAndSorting\RadixSort.cs" />
+    <Compile Include="SearchingAndSorting\SelectionSort.cs" />
     <Compile Include="SearchingAndSorting\ShellSort.cs" />
+    <Compile Include="SearchingAndSorting\Trees.cs" />
+    <Compile Include="String\CompareTwoString.cs" />
+    <Compile Include="String\CopyOneStringIntoAnother.cs" />
+    <Compile Include="String\CountNumberOfCharacters.cs" />
+    <Compile Include="String\CountNumberOfWordsInString.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

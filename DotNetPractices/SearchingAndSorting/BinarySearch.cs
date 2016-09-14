@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DotNetPractices
+namespace DotNetPractices.SearchingAndSorting
 {
-    public class ArraysPractice
+    public class BinarySearch
     {
-        
     }
 }
