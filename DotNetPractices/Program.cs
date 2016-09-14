@@ -1,4 +1,5 @@
 ﻿using DotNetPractices.Arrays;
+using DotNetPractices.IO;
 using DotNetPractices.SearchingAndSorting;
 using DotNetPractices.String;
 using System;
@@ -16,6 +17,7 @@ namespace DotNetPractices
         private static void Main(string[] args)
         {
             ////Reference Types practice
+
             //GradeBook book = new GradeBook();
             //book.AddGrade(91);
             //book.AddGrade(32.3f);
@@ -114,6 +116,11 @@ namespace DotNetPractices
             //CompareTwoString.CompareString();
             //CountNumberOfCharacters.CountCharacters();
             //CountNumberOfWordsInString.CountNumberOfWord();
+
+            //IO
+            //PreSignReady.GetReady();
+            string apkFile = @"D:\AutomationTool\APKs\dev-6.23.0.6.apk";
+            PreSignReady.SignReady(apkFile);
         }
     }
 }
