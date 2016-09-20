@@ -116,11 +116,21 @@ namespace DotNetPractices
             //CompareTwoString.CompareString();
             //CountNumberOfCharacters.CountCharacters();
             //CountNumberOfWordsInString.CountNumberOfWord();
+            //MaximumAccurringCharacter.MaximumAccurring();
+            string str = "Find out maximum!";
+            int ascii;
+            int i;
+            for (i = 0; i < str.Length; i++)
+            {
+                Console.WriteLine(str[i]);
+            }
+            ascii = (int)str[i];
+            Console.WriteLine(ascii);
 
             //IO
             //PreSignReady.GetReady();
-            string apkFile = @"D:\AutomationTool\APKs\dev-6.23.0.6.apk";
-            PreSignReady.SignReady(apkFile);
+            //string apkFile = @"D:\AutomationTool\APKs\dev-6.23.0.6.apk";
+            //PreSignReady.SignReady(apkFile);
         }
     }
 }

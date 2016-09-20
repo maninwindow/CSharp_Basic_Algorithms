@@ -90,6 +90,7 @@
     <Compile Include="String\CopyOneStringIntoAnother.cs" />
     <Compile Include="String\CountNumberOfCharacters.cs" />
     <Compile Include="String\CountNumberOfWordsInString.cs" />
+    <Compile Include="String\MaximumAccurringCharacter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
