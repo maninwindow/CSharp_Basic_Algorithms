@@ -117,15 +117,8 @@ namespace DotNetPractices
             //CountNumberOfCharacters.CountCharacters();
             //CountNumberOfWordsInString.CountNumberOfWord();
             //MaximumAccurringCharacter.MaximumAccurring();
-            string str = "Find out maximum!";
-            int ascii;
-            int i;
-            for (i = 0; i < str.Length; i++)
-            {
-                Console.WriteLine(str[i]);
-            }
-            ascii = (int)str[i];
-            Console.WriteLine(ascii);
+            //string str = "Find out maximum!";
+            //SortStringAscendingOrder.SortStringAscending();
 
             //IO
             //PreSignReady.GetReady();
