@@ -90,6 +90,7 @@
     <Compile Include="String\CopyOneStringIntoAnother.cs" />
     <Compile Include="String\CountNumberOfCharacters.cs" />
     <Compile Include="String\CountNumberOfWordsInString.cs" />
+    <Compile Include="String\ExtractSubstringFromString.cs" />
     <Compile Include="String\MaximumAccurringCharacter.cs" />
     <Compile Include="String\SortStringAscendingOrder.cs" />
     <Compile Include="String\SortStringBubbleSort.cs" />

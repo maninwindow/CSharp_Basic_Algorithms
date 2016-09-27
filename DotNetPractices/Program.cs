@@ -119,6 +119,8 @@ namespace DotNetPractices
             //MaximumAccurringCharacter.MaximumAccurring();
             //string str = "Find out maximum!";
             //SortStringAscendingOrder.SortStringAscending();
+            //SortStringBubbleSort.SortStringUsingBubbleSort();
+            ExtractSubstringFromString.ExtractSubString();
 
             //IO
             //PreSignReady.GetReady();
