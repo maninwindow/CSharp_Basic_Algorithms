@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.SearchingAndSorting
 {
@@ -33,7 +31,6 @@ namespace DotNetPractices.SearchingAndSorting
             Console.Write("\n");
         }
 
-
         private static List<int> MergeSortTest(List<int> unsorted)
         {
             if (unsorted.Count <= 1)
@@ -43,7 +40,7 @@ namespace DotNetPractices.SearchingAndSorting
             List<int> right = new List<int>();
 
             int middle = unsorted.Count / 2;
-            for (int i = 0; i < middle; i++)  //Dividing the unsorted list  
+            for (int i = 0; i < middle; i++)  //Dividing the unsorted list
             {
                 left.Add(unsorted[i]);
             }
@@ -65,10 +62,10 @@ namespace DotNetPractices.SearchingAndSorting
             {
                 if (left.Count > 0 && right.Count > 0)
                 {
-                    if (left.First() <= right.First())  //Comparing First two elements to see which is smaller  
+                    if (left.First() <= right.First())  //Comparing First two elements to see which is smaller
                     {
                         result.Add(left.First());
-                        left.Remove(left.First());      //Rest of the list minus the first element  
+                        left.Remove(left.First());      //Rest of the list minus the first element
                     }
                     else
                     {

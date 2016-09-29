@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DotNetPractices.SearchingAndSorting
+﻿namespace DotNetPractices.SearchingAndSorting
 {
     public class QuickSort
     {
-      private static void Quick_Sort(int[] arr, int left, int right)
+        private static void Quick_Sort(int[] arr, int left, int right)
         {
             if (left < right)
             {
@@ -23,7 +17,6 @@ namespace DotNetPractices.SearchingAndSorting
                     Quick_Sort(arr, pivot + 1, right);
                 }
             }
-
         }
 
         private static int Partition(int[] arr, int left, int right)
@@ -31,7 +24,6 @@ namespace DotNetPractices.SearchingAndSorting
             int pivot = arr[left];
             while (true)
             {
-
                 while (arr[left] < pivot)
                 {
                     left++;
@@ -49,8 +41,6 @@ namespace DotNetPractices.SearchingAndSorting
                     int temp = arr[left];
                     arr[left] = arr[right];
                     arr[right] = temp;
-
-
                 }
                 else
                 {
@@ -58,6 +48,7 @@ namespace DotNetPractices.SearchingAndSorting
                 }
             }
         }
+
         //static void Main(string[] args)
         //{
         //    int[] arr = new int[] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };

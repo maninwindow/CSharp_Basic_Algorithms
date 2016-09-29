@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.SearchingAndSorting
 {
@@ -18,7 +14,7 @@ namespace DotNetPractices.SearchingAndSorting
             Console.WriteLine("\n");
         }
 
-        static int[] InsertionSortTest(int[] inputArray)
+        private static int[] InsertionSortTest(int[] inputArray)
         {
             for (int i = 0; i < inputArray.Length - 1; i++)
             {
@@ -34,6 +30,7 @@ namespace DotNetPractices.SearchingAndSorting
             }
             return inputArray;
         }
+
         public static void PrintIntegerArray(int[] array)
         {
             foreach (int i in array)
@@ -41,7 +38,6 @@ namespace DotNetPractices.SearchingAndSorting
                 Console.Write(i.ToString() + "  ");
             }
         }
-
 
         public static int[] InsertionSortByShift(int[] inputArray)
         {

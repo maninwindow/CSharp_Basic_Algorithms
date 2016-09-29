@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.SearchingAndSorting
 {
@@ -29,7 +26,7 @@ namespace DotNetPractices.SearchingAndSorting
                 }
                 if (currentWordIndex == word.Length)
                     result.Add(currentIndex);
-                currentIndex++;  
+                currentIndex++;
             }
             return result;
         }

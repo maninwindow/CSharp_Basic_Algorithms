@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.SearchingAndSorting
 {
@@ -12,9 +8,9 @@ namespace DotNetPractices.SearchingAndSorting
         {
             int[] mykeys = new int[] { 2, 5, -4, 11, 0, 18, 22, 67, 51, 6 };
 
-            //double[] mykeys = new double[] {2.22, 0.5, 2.7, -1.0, 11.2};  
+            //double[] mykeys = new double[] {2.22, 0.5, 2.7, -1.0, 11.2};
 
-            //string[] mykeys = new string[] {"Red", "White", "Black", "Green", "Orange"};  
+            //string[] mykeys = new string[] {"Red", "White", "Black", "Green", "Orange"};
 
             Console.WriteLine("\nOriginal Array Elements :");
             printArray(mykeys);
@@ -54,10 +50,9 @@ namespace DotNetPractices.SearchingAndSorting
         {
             if (getLeftKidPos(toSinkPos) >= heapSize)
             {
-                // No left kid => no kid at all  
+                // No left kid => no kid at all
                 return;
             }
-
 
             int largestKidPos;
             bool leftIsLargest;
@@ -73,8 +68,6 @@ namespace DotNetPractices.SearchingAndSorting
                 leftIsLargest = false;
             }
 
-
-
             if (array[largestKidPos].CompareTo(array[toSinkPos]) > 0)
             {
                 swap(array, toSinkPos, largestKidPos);
@@ -82,14 +75,12 @@ namespace DotNetPractices.SearchingAndSorting
                 if (leftIsLargest)
                 {
                     sink(array, heapSize, getLeftKidPos(toSinkPos));
-
                 }
                 else
                 {
                     sink(array, heapSize, getRightKidPos(toSinkPos));
                 }
             }
-
         }
 
         private static void swap<T>(T[] array, int pos0, int pos1)
@@ -111,12 +102,10 @@ namespace DotNetPractices.SearchingAndSorting
 
         private static void printArray<T>(T[] array)
         {
-
             foreach (T t in array)
             {
                 Console.Write(' ' + t.ToString() + ' ');
             }
-
         }
     }
 }

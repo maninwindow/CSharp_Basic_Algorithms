@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.SearchingAndSorting
 {
@@ -17,7 +14,7 @@ namespace DotNetPractices.SearchingAndSorting
             Console.ReadKey();
         }
 
-        static void Bogo_sort(List<int> list, bool announce, int delay)
+        private static void Bogo_sort(List<int> list, bool announce, int delay)
         {
             int iteration = 0;
             while (!IsSorted(list))
@@ -39,7 +36,7 @@ namespace DotNetPractices.SearchingAndSorting
             Console.WriteLine("Bogo_sort completed after {0} iterations.", iteration);
         }
 
-        static void Print_Iteration(List<int> list, int iteration)
+        private static void Print_Iteration(List<int> list, int iteration)
         {
             Console.Write("Bogo_sort iteration {0}: ", iteration);
             for (int i = 0; i < list.Count; i++)
@@ -52,7 +49,8 @@ namespace DotNetPractices.SearchingAndSorting
             }
             Console.WriteLine();
         }
-        static bool IsSorted(List<int> list)
+
+        private static bool IsSorted(List<int> list)
         {
             for (int i = 0; i < list.Count - 1; i++)
             {
@@ -65,7 +63,7 @@ namespace DotNetPractices.SearchingAndSorting
             return true;
         }
 
-        static List<int> Remap(List<int> list)
+        private static List<int> Remap(List<int> list)
         {
             int temp;
             List<int> newList = new List<int>();

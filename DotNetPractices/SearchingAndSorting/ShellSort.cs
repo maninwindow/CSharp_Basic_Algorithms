@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.SearchingAndSorting
 {
@@ -21,7 +17,7 @@ namespace DotNetPractices.SearchingAndSorting
             show_array_elements(arr);
         }
 
-        static void shellSort(int[] arr, int array_size)
+        private static void shellSort(int[] arr, int array_size)
         {
             int i, j, inc, temp;
             inc = 3;
@@ -47,14 +43,13 @@ namespace DotNetPractices.SearchingAndSorting
             }
         }
 
-        static void show_array_elements(int[] arr)
+        private static void show_array_elements(int[] arr)
         {
             foreach (var element in arr)
             {
                 Console.Write(element + " ");
             }
             Console.Write("\n");
-
         }
     }
 }

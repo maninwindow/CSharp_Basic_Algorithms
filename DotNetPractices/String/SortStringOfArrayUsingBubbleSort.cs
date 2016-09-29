@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.String
 {
     public class SortStringOfArrayUsingBubbleSort
     {
         public static void SortStringUsingBubbleSort()
-        {   
+        {
             string[] arr1;
             string temp;
             int n, i, j, l;

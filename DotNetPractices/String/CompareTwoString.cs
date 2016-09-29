@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.String
 {
@@ -33,7 +29,6 @@ namespace DotNetPractices.String
                     {
                         yn = 1;
                         i = l1;
-
                     }
                 }
             }

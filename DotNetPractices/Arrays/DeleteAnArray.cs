@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.Arrays
 {
@@ -12,8 +8,6 @@ namespace DotNetPractices.Arrays
         {
             int pos, i, n;
             int[] arr1 = new int[50];
-
-
 
             Console.Write("\n\nDelete an element at desired position from an array :\n");
             Console.Write("---------------------------------------------------------\n");
@@ -34,7 +28,7 @@ namespace DotNetPractices.Arrays
             i = 0;
             while (i != pos - 1)
                 i++;
-            /*---- the position of i in the array will be replaced by the  
+            /*---- the position of i in the array will be replaced by the
                    value of its right */
             while (i < n)
             {

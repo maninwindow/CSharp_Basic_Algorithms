@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.String
 {
@@ -13,7 +9,6 @@ namespace DotNetPractices.String
             string str;
             int alp, digit, splch, i, l;
             alp = digit = splch = i = 0;
-
 
             Console.Write("\n\nCount total number of alphabets, digits and special characters :\n");
             Console.Write("--------------------------------------------------------------------\n");

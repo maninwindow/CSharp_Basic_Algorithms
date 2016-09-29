@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.SearchingAndSorting
 {
@@ -12,7 +8,8 @@ namespace DotNetPractices.SearchingAndSorting
         {
             private int[] data;
             private static Random generator = new Random();
-            //Create an array of 10 random numbers  
+
+            //Create an array of 10 random numbers
             public Selection_Sort(int size)
             {
                 data = new int[size];
@@ -41,7 +38,6 @@ namespace DotNetPractices.SearchingAndSorting
                     Swap(i, smallest);
                     display_array_elements();
                 }
-
             }
 
             public void Swap(int first, int second)

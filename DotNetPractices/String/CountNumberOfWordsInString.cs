@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.String
 {
@@ -11,7 +7,7 @@ namespace DotNetPractices.String
         public static void CountNumberOfWord()
         {
             string str;
-            int  wrd, l;
+            int wrd, l;
 
             Console.Write("\n\nCount the total number of words in a string :\n");
             Console.Write("------------------------------------------------------\n");

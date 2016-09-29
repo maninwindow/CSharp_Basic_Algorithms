@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.SearchingAndSorting
 {
@@ -21,7 +17,7 @@ namespace DotNetPractices.SearchingAndSorting
 
             int[] sortedArray = new int[array.Length];
 
-            // find smallest and largest value  
+            // find smallest and largest value
             int minVal = array[0];
             int maxVal = array[0];
             for (int i = 1; i < array.Length; i++)
@@ -30,23 +26,23 @@ namespace DotNetPractices.SearchingAndSorting
                 else if (array[i] > maxVal) maxVal = array[i];
             }
 
-            // init array of frequencies  
+            // init array of frequencies
             int[] counts = new int[maxVal - minVal + 1];
 
-            // init the frequencies  
+            // init the frequencies
             for (int i = 0; i < array.Length; i++)
             {
                 counts[array[i] - minVal]++;
             }
 
-            // recalculate  
+            // recalculate
             counts[0]--;
             for (int i = 1; i < counts.Length; i++)
             {
                 counts[i] = counts[i] + counts[i - 1];
             }
 
-            // Sort the array  
+            // Sort the array
             for (int i = array.Length - 1; i >= 0; i--)
             {
                 sortedArray[counts[array[i] - minVal]--] = array[i];

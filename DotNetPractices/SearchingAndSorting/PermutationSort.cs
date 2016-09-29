@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DotNetPractices.SearchingAndSorting
 {
@@ -21,7 +18,6 @@ namespace DotNetPractices.SearchingAndSorting
 
             foreach (string p in permutation)
                 Console.WriteLine(p);
-
         }
 
         public static List<string> Permutar(List<Caracter> elem, int n)
@@ -66,7 +62,7 @@ namespace DotNetPractices.SearchingAndSorting
             return permutation;
         }
 
-        static string Concatenar(List<Caracter> listaCaracteres)
+        private static string Concatenar(List<Caracter> listaCaracteres)
         {
             string cadena = "";
             for (int i = 0; i < listaCaracteres.Count; i++)
@@ -88,9 +84,11 @@ namespace DotNetPractices.SearchingAndSorting
             this.n = n;
         }
     }
+
     public class Caracter
     {
         public char caracter;
+
         public Caracter(char caracter)
         {
             this.caracter = caracter;
