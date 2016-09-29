@@ -73,6 +73,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SearchingAndSorting\BinarySearch.cs" />
+    <Compile Include="SearchingAndSorting\BinaryTreeTraverse.cs" />
     <Compile Include="SearchingAndSorting\BogoSort.cs" />
     <Compile Include="SearchingAndSorting\BubbleSort.cs" />
     <Compile Include="SearchingAndSorting\CheckCertainWordInText.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="String\MaximumAccurringCharacter.cs" />
     <Compile Include="String\SortStringAscendingOrder.cs" />
     <Compile Include="String\SortStringBubbleSort.cs" />
+    <Compile Include="String\SortStringOfArrayUsingBubbleSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
