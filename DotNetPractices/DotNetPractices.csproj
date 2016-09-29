@@ -67,6 +67,10 @@
     <Compile Include="Arrays\UniqueValues.cs" />
     <Compile Include="DataTypes\DisplayTriangle.cs" />
     <Compile Include="DataTypes\TestPassword.cs" />
+    <Compile Include="Function\CalculateIndividualDigitsOfNumber.cs" />
+    <Compile Include="Function\CalculateSumOfElements.cs" />
+    <Compile Include="Function\CountNumberOfSpace.cs" />
+    <Compile Include="Function\FeibonacciSeries.cs" />
     <Compile Include="GradeStatistics.cs" />
     <Compile Include="GradeBook.cs" />
     <Compile Include="IO\PreSignReady.cs" />

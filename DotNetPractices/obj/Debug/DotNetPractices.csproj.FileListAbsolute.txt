@@ -11,3 +11,4 @@ D:\ASP.NET\git\DotNetPractices\DotNetPractices\bin\Debug\DotNetPractices.pdb
 D:\ASP.NET\git\DotNetPractices\DotNetPractices\obj\Debug\DotNetPractices.csprojResolveAssemblyReference.cache
 D:\ASP.NET\git\DotNetPractices\DotNetPractices\bin\Debug\DotNetZip.dll
 D:\ASP.NET\git\DotNetPractices\DotNetPractices\bin\Debug\DotNetZip.xml
+D:\C#\git\DotNetPractices\DotNetPractices\DotNetPractices\bin\Debug\DotNetPractices.exe.config
