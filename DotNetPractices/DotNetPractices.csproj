@@ -76,6 +76,9 @@
     <Compile Include="IO\PreSignReady.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursion\PrintNaturalNumberUsingRecursion.cs" />
+    <Compile Include="Recursion\PrintNToOneUsingRecursion.cs" />
+    <Compile Include="Recursion\SumOfFirstRandomNaturalNumbers.cs" />
     <Compile Include="SearchingAndSorting\BinarySearch.cs" />
     <Compile Include="SearchingAndSorting\BinaryTreeTraverse.cs" />
     <Compile Include="SearchingAndSorting\BogoSort.cs" />
