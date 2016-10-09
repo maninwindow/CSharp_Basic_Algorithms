@@ -76,6 +76,12 @@
     <Compile Include="IO\PreSignReady.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursion\CalculatePowerOfNumbers.cs" />
+    <Compile Include="Recursion\CheckPalindromeUsingRecursion.cs" />
+    <Compile Include="Recursion\ConvertDecimalToBinary.cs" />
+    <Compile Include="Recursion\FindingFibonacciNumbers.cs" />
+    <Compile Include="Recursion\GeneratePermutations.cs" />
+    <Compile Include="Recursion\GetReverseOfString.cs" />
     <Compile Include="Recursion\PrintNaturalNumberUsingRecursion.cs" />
     <Compile Include="Recursion\PrintNToOneUsingRecursion.cs" />
     <Compile Include="Recursion\SumOfFirstRandomNaturalNumbers.cs" />
