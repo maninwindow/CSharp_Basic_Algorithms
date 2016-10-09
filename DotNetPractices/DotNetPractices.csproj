@@ -74,6 +74,7 @@
     <Compile Include="GradeStatistics.cs" />
     <Compile Include="GradeBook.cs" />
     <Compile Include="IO\PreSignReady.cs" />
+    <Compile Include="LINQ\BasicStructureOfLINQ.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recursion\CalculatePowerOfNumbers.cs" />
