@@ -1,8 +1,8 @@
 using System;  
   
-class RecExercise13  
+public class ConvertDecimalToBinary
 {  
-    public static void Main(string[] args)  
+    public static void ConverDecimal()  
     {  
         int num;  
         DecToBinClass pg = new DecToBinClass();  

@@ -1,7 +1,7 @@
 using System;  
-class RecExercise14  
-    {  
-        static void Main()  
+public class GetReverseOfString
+{  
+        public static void TestMethod()  
         {  
             string str;   
             Console.WriteLine("\n\n Recursion : Get the reverse of a string :");  

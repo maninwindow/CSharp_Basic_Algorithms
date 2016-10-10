@@ -1,6 +1,6 @@
 using System;  
   
-class RecExercise10  
+public class FindingFibonacciNumbers
 {  
     public static int FindFibonacci(int n)  
     {  
@@ -15,7 +15,7 @@ class RecExercise10
     return p;  
     }  
   
-    static void Main()  
+    public static void TestMethod()  
     {  
         Console.WriteLine("\n\n Recursion : Find the Fibonacci numbers for a n numbers of series :");  
         Console.WriteLine("-----------------------------------------------------------------------");  

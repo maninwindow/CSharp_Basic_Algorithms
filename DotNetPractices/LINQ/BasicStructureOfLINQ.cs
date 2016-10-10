@@ -8,7 +8,7 @@ namespace DotNetPractices.LINQ
 {
     public class LinqExercise1
     {
-        static void Main()
+        public static void LINQBasic()
         {
             //  The first part is Data source.  
             int[] n1 = new int[10] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };

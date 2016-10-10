@@ -1,6 +1,6 @@
 using System;  
   
-class formPermut  
+public class GeneratePermutations
 {  
    public void swapTwoNumber (ref int a, ref int b)  
    {  
@@ -25,13 +25,10 @@ class formPermut
             swapTwoNumber (ref list [k], ref list [i]);  
          }  
    }  
-}  
-class RecExercise11  
-{  
-   public static void Main()  
+   public static void TestMethod()  
    {  
-       int n,i;  
-      formPermut test = new formPermut();  
+       int n,i;
+        GeneratePermutations test = new GeneratePermutations();  
       int[] arr1 = new int[5];  
           
         Console.WriteLine("\n\n Recursion : Generate all possible permutations of an array :");  
@@ -49,5 +46,5 @@ class RecExercise11
         Console.Write ("\n The Permutations with combination of {0} digits are : \n",n);  
         test.prnPermut(arr1, 0, n-1);  
         Console.Write ("\n\n");  
-   }  
 }
+}  

@@ -1,8 +1,8 @@
 using System;  
-public class RecExercise15  
+public class CalculatePowerOfNumbers  
 {  
    
- public static void Main()  
+ public static void CalculatePower()  
     {  
     int bNum,pwr;  
     int result;  

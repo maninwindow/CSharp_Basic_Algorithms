@@ -1,4 +1,6 @@
-public class RecExercise8  
+using System;
+
+public class CheckPalindromeUsingRecursion
 {  
     public static bool IsPalindrome(string text)  
     {  
@@ -12,7 +14,7 @@ public class RecExercise8
                 return IsPalindrome( text.Substring( 1, text.Length-2 ) );  
         }     
     }     
-    public static void Main()  
+    public static void TestMethod()  
     {  
       Console.Write("\n\n Recursion : Check whether a string ia Palindrome or not :\n");  
       Console.Write("---------------------------------------------------------------\n");   
