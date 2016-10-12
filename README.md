@@ -1,4 +1,4 @@
-##.NET Basic Practice Project
+##.NET Basic Algorithm Practice
 
 ###Index
 * [Arrays](https://github.com/maninwindow/DotNetPractices/tree/master/DotNetPractices/Arrays)
