@@ -9,3 +9,6 @@
 * [Recursion](https://github.com/maninwindow/DotNetPractices/tree/master/DotNetPractices/Recursion)
 * [SearchingAndSorting](https://github.com/maninwindow/DotNetPractices/tree/master/DotNetPractices/SearchingAndSorting)
 * [String](https://github.com/maninwindow/DotNetPractices/tree/master/DotNetPractices/String)
+* [Structure]()
+* [Date Time]()
+* [File Handing]()
