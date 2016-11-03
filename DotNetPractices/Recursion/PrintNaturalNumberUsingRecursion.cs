@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DotNetPractices.Recursion
 {
-    public class PrintNaturalNumberUsingRecursion
+    public static class PrintNaturalNumberUsingRecursion
     {
         public static int printNatural(int stval, int ctr)
         {

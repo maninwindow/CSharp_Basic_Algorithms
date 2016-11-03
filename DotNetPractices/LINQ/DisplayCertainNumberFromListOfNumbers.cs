@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace DotNetPractices.LINQ
 {
-    public class DisplayCertainNumberFromListOfNumbers
+    public static class DisplayCertainNumberFromListOfNumbers
     {
         public static void TestMethod()
         {
             int i = 0;
             List<int> templist = new List<int>();
             templist.Add(55);
-            templist.Add(200);
-            templist.Add(740);
-            templist.Add(76);
-            templist.Add(230);
-            templist.Add(482);
-            templist.Add(95);
+            templist.Add(23);
+            templist.Add(34);
+            templist.Add(32);
+            templist.Add(34);
+            templist.Add(33);
+            templist.Add(44);
 
             Console.Write("\nLINQ : Create a list of numbers and display the numbers greater than 80 : ");
             Console.Write("\n-------------------------------------------------------------------------\n");
