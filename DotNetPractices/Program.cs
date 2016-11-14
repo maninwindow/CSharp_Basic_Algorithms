@@ -1,5 +1,7 @@
 ﻿using DotNetPractices.Arrays;
 using DotNetPractices.IO;
+using DotNetPractices.LINQ;
+using DotNetPractices.Recursion;
 using DotNetPractices.SearchingAndSorting;
 using DotNetPractices.String;
 using System;
@@ -120,12 +122,20 @@ namespace DotNetPractices
             //string str = "Find out maximum!";
             //SortStringAscendingOrder.SortStringAscending();
             //SortStringBubbleSort.SortStringUsingBubbleSort();
-            ExtractSubstringFromString.ExtractSubString();
+            //ExtractSubstringFromString.ExtractSubString();
 
             //IO
             //PreSignReady.GetReady();
             //string apkFile = @"D:\AutomationTool\APKs\dev-6.23.0.6.apk";
             //PreSignReady.SignReady(apkFile);
+
+            //LINQ
+            //DisplayCertainNumberFromListOfNumbers.TestMethod();
+
+            //Recursio
+            //CheckPalindromeUsingRecursion.TestMethod();
+            //FindingFibonacciNumbers.FeibonacciRecursion();
+            //GeneratePermutations.TestMethod();
         }
     }
 }
