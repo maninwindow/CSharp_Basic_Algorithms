@@ -10,8 +10,9 @@ namespace Interfaces
     {
         /**
          * Interface: Public set of members such as Properties, Methods, Events and Inidexers.
-         *
-         * **/
+         * Pragram to an abstraction rather than a concrete type.
+         * Program to an interface rather than a concrete class.
+         **/
 
         private static void Main(string[] args)
         {
