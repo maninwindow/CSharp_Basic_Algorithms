@@ -13,8 +13,9 @@ namespace Arrays
             //char[] word = { 'H', 'e', 'l', 'l', 'o' };
             //char[] result = ReverseMethod1(word);
             //char[] result = ReverseMethod2(word);
-            int[] number = { 1, 2, 3, 4, 4 };
-            int[] checkNumber = CheckGivenElement(number);
+            int[] number = { 1, 2, 3, 4, 3, 4, 2, 3, 4, 5, 7, 8, 9 };
+            //int[] checkNumber = CheckGivenElement(number);
+            int[] CheckGivenElement = CheckGivenElement2(number);
         }
 
         //For loop O(n/2) version
@@ -87,5 +88,19 @@ namespace Arrays
 
         //Check if contains duplicated element.
         //O(n) version
+        public static int[] CheckGivenElement2(int[] number)
+        {
+            int counter = 0;
+            int[] newArr = new int[counter]; ;
+            HashSet<int> set = new HashSet<int>();
+            if (number != null)
+                for (int i = 0; i < number.Length; i++)
+                {
+                    set.Add(number[i]);
+                    counter = set.Count();
+                }
+            newArr = set.ToArray();
+            return newArr;
+        }
     }
 }
