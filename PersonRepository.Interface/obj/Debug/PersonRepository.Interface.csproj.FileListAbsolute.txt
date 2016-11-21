@@ -4,3 +4,9 @@ D:\ASP.NET\git\DotNetPractices\PersonRepository.Interface\bin\Debug\PersonReposi
 D:\ASP.NET\git\DotNetPractices\PersonRepository.Interface\obj\Debug\PersonRepository.Interface.csprojResolveAssemblyReference.cache
 D:\ASP.NET\git\DotNetPractices\PersonRepository.Interface\obj\Debug\PersonRepository.Interface.dll
 D:\ASP.NET\git\DotNetPractices\PersonRepository.Interface\obj\Debug\PersonRepository.Interface.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\PersonRepository.Interface\bin\Debug\PersonRepository.Interface.dll.config
+D:\C#\git\DotNetPractices\DotNetPractices\PersonRepository.Interface\bin\Debug\PersonRepository.Interface.dll
+D:\C#\git\DotNetPractices\DotNetPractices\PersonRepository.Interface\bin\Debug\PersonRepository.Interface.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\PersonRepository.Interface\obj\Debug\PersonRepository.Interface.csprojResolveAssemblyReference.cache
+D:\C#\git\DotNetPractices\DotNetPractices\PersonRepository.Interface\obj\Debug\PersonRepository.Interface.dll
+D:\C#\git\DotNetPractices\DotNetPractices\PersonRepository.Interface\obj\Debug\PersonRepository.Interface.pdb
