@@ -129,5 +129,12 @@ namespace Arrays
             }
             return -1;
         }
+
+        public bool CheckIsDuplicated(int[] number)
+        {
+            if (number != null)
+
+                return true;
+        }
     }
 }
