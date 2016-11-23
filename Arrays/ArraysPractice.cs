@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,9 +14,10 @@ namespace Arrays
             //char[] word = { 'H', 'e', 'l', 'l', 'o' };
             //char[] result = ReverseMethod1(word);
             //char[] result = ReverseMethod2(word);
-            int[] number = { 1, 2, 3, 4, 3, 4, 2, 3, 4, 5, 7, 8, 9 };
+            string[] number = { "cat", "dog", "caw", "cat" };
             //int[] checkNumber = CheckGivenElement(number);
-            int[] CheckGivenElement = CheckGivenElement2(number);
+            CheckGivenElement2(number);
+            //int hashPractice = HashtablePractice(number);
         }
 
         //For loop O(n/2) version
@@ -88,19 +90,44 @@ namespace Arrays
 
         //Check if contains duplicated element.
         //O(n) version
-        public static int[] CheckGivenElement2(int[] number)
+        public static void CheckGivenElement2(string[] number)
         {
             int counter = 0;
-            int[] newArr = new int[counter]; ;
-            HashSet<int> set = new HashSet<int>();
+            bool isExist = false;
+            Hashtable hashTable = new Hashtable();
             if (number != null)
-                for (int i = 0; i < number.Length; i++)
+                for (int i = 0; i < number.Length - 1; i++)
                 {
-                    set.Add(number[i]);
-                    counter = set.Count();
+                    try
+                    {
+                        hashTable.Add(number[i], i);
+                    }
+                    catch (Exception)
+                    {
+                        hashTable.Remove(number[i++`]);
+                    }
                 }
-            newArr = set.ToArray();
-            return newArr;
+        }
+
+        public static int HashtablePractice(int[] number)
+        {
+            int Count = 0;
+            int Length = number.Length;
+            Hashtable h = new Hashtable();
+            try
+            {
+                for (int i = 0; i < Length; i++)
+
+                {
+                    Count++;
+                    h.Add(number[i], Count);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("ArrayofInt[i]");
+            }
+            return -1;
         }
     }
 }
