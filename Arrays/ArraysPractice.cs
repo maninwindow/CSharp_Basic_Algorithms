@@ -14,10 +14,11 @@ namespace Arrays
             //char[] word = { 'H', 'e', 'l', 'l', 'o' };
             //char[] result = ReverseMethod1(word);
             //char[] result = ReverseMethod2(word);
-            string[] number = { "cat", "dog", "caw", "cat" };
+            int[] number = { 1, 2, 3, 4, 5, 6 };
             //int[] checkNumber = CheckGivenElement(number);
-            CheckGivenElement2(number);
+            //CheckGivenElement2(number);
             //int hashPractice = HashtablePractice(number);
+            bool isExist = CheckIsDuplicated3(number);
         }
 
         //For loop O(n/2) version
@@ -104,7 +105,7 @@ namespace Arrays
                     }
                     catch (Exception)
                     {
-                        hashTable.Remove(number[i++`]);
+                        hashTable.Remove(number[i]);
                     }
                 }
         }
@@ -130,11 +131,18 @@ namespace Arrays
             return -1;
         }
 
-        public bool CheckIsDuplicated(int[] number)
+        public static bool CheckIsDuplicated3(int[] number)
         {
-            if (number != null)
-
-                return true;
+            if (number == null)
+                return false;
+            var hashSet = new HashSet<int>();
+            for (int i = 0; i < number.Length; i++)
+            {
+                if (hashSet.Contains(number[i]))
+                    return false;
+                hashSet.Add(number[i]);
+            }
+            return true;
         }
     }
 }

@@ -11,38 +11,34 @@ namespace HashTablePractice
     {
         private static void Main(string[] args)
         {
+            int[] number = { 1, 2, 3, 4 };
+            int resultIndex = BinarySearchPractice(number, 3);
         }
 
-        public void HashTablePractice01()
+        public static int BinarySearchPractice01(int[] number, int key)
         {
-            Hashtable ht = new Hashtable();
-
-            ht.Add("001", "Zara Ali");
-            ht.Add("002", "Abida Rehman");
-            ht.Add("003", "Joe Holzner");
-            ht.Add("004", "Mausam Benazir Nur");
-            ht.Add("005", "M. Amlan");
-            ht.Add("006", "M. Arif");
-            ht.Add("007", "Ritesh Saikia");
-
-            if (ht.ContainsValue("Nuha Ali"))
+            int resultIndex = -1;
+            if (number == null)
+                return resultIndex;
+            for (int i = 0; i < number.Length - 1; i++)
             {
-                Console.WriteLine("This student name is already in the list");
+                if (number[i] == key)
+                    return resultIndex = i;
             }
-            else
+            return resultIndex;
+        }
+
+        public static int BinarySearchPractice02(int[] number, int key)
+        {
+            int resultIndex = -1;
+            if (number == null)
+                return resultIndex;
+            for (int i = 0; i < number.Length - 1; i++)
             {
-                ht.Add("008", "Nuha Ali");
+                if (number[i] == key)
+                    return resultIndex = i;
             }
-
-            // Get a collection of the keys.
-            ICollection key = ht.Keys;
-
-            foreach (string k in key)
-            {
-                Console.WriteLine(k + ": " + ht[k]);
-            }
-
-            Console.ReadKey();
+            return resultIndex;
         }
     }
 }
