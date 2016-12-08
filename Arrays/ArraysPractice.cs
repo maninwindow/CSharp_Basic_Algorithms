@@ -14,11 +14,23 @@ namespace Arrays
             //char[] word = { 'H', 'e', 'l', 'l', 'o' };
             //char[] result = ReverseMethod1(word);
             //char[] result = ReverseMethod2(word);
-            int[] number = { 1, 2, 3, 4, 5, 6 };
+            //int[] number = { 1, 2, 3, 4, 5, 6 };
             //int[] checkNumber = CheckGivenElement(number);
             //CheckGivenElement2(number);
             //int hashPractice = HashtablePractice(number);
-            bool isExist = CheckIsDuplicated3(number);
+            //bool isExist = CheckIsDuplicated3(number);
+
+            int n = 12345;
+            int left = n;
+            int rev = 0;
+            int result = 0;
+            while (left > 0)
+            {
+                int r = left % 10;
+                rev = rev * 10 + r;
+                left = left / 10;  //left = Math.floor(left / 10);
+            }
+            result = rev;
         }
 
         //For loop O(n/2) version
@@ -33,6 +45,18 @@ namespace Arrays
                 }
             return word;
         }
+
+        //public static int ReverseMethod_int(int data)
+        //{
+        //    if (data != null)
+        //        for (int i = 0; i < data / 2; i++)
+        //        {
+        //            char temp = data[i];
+        //            data[i] = data[data - i - 1];
+        //            data[data.Length - i - 1] = temp;
+        //        }
+        //    return data;
+        //}
 
         //For loop O(n) version
         public static char[] ReverseMethod2(char[] word)
