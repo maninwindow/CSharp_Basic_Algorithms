@@ -12,7 +12,7 @@ namespace HashTablePractice
         private static void Main(string[] args)
         {
             int[] number = { 1, 2, 3, 4 };
-            int resultIndex = BinarySearchPractice(number, 3);
+            int resultIndex = BinarySearchPractice02(number, 3);
         }
 
         public static int BinarySearchPractice01(int[] number, int key)
