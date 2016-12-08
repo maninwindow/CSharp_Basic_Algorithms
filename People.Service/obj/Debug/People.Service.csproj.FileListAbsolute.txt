@@ -6,3 +6,11 @@ D:\ASP.NET\git\DotNetPractices\People.Service\bin\Debug\PersonRepository.Interfa
 D:\ASP.NET\git\DotNetPractices\People.Service\obj\Debug\People.Service.csprojResolveAssemblyReference.cache
 D:\ASP.NET\git\DotNetPractices\People.Service\obj\Debug\People.Service.dll
 D:\ASP.NET\git\DotNetPractices\People.Service\obj\Debug\People.Service.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\People.Service\bin\Debug\People.Service.dll.config
+D:\C#\git\DotNetPractices\DotNetPractices\People.Service\bin\Debug\People.Service.dll
+D:\C#\git\DotNetPractices\DotNetPractices\People.Service\bin\Debug\People.Service.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\People.Service\bin\Debug\PersonRepository.Interface.dll
+D:\C#\git\DotNetPractices\DotNetPractices\People.Service\bin\Debug\PersonRepository.Interface.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\People.Service\obj\Debug\People.Service.csprojResolveAssemblyReference.cache
+D:\C#\git\DotNetPractices\DotNetPractices\People.Service\obj\Debug\People.Service.dll
+D:\C#\git\DotNetPractices\DotNetPractices\People.Service\obj\Debug\People.Service.pdb

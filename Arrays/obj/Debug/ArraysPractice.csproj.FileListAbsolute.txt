@@ -1,0 +1,6 @@
+D:\C#\git\DotNetPractices\DotNetPractices\Arrays\bin\Debug\Arrays.exe.config
+D:\C#\git\DotNetPractices\DotNetPractices\Arrays\bin\Debug\Arrays.exe
+D:\C#\git\DotNetPractices\DotNetPractices\Arrays\bin\Debug\Arrays.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\Arrays\obj\Debug\Arrays.exe
+D:\C#\git\DotNetPractices\DotNetPractices\Arrays\obj\Debug\Arrays.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\Arrays\obj\Debug\ArraysPractice.csprojResolveAssemblyReference.cache
