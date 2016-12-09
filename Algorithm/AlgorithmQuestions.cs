@@ -8,37 +8,19 @@ namespace Algorithm
 {
     public class AlgorithmQuestions
     {
-        public static int ReverseInteger(int data)
-        {
-            int rev = 0;
-            int result = 0;
-            if (data == 0)
-                return result = 0;
-            if (data > 0)
-            {
-                while (data > 0)
-                {
-                    int temp = data % 10;
-                    rev = rev * 10 + temp;
-                    data = data / 10;
-                }
-                return result = rev;
-            }
-            else
-            {
-                while (data < 0)
-                {
-                    Math.Abs(data);
-                    int temp = data % 10;
-                    rev = rev * 10 + temp;
-                    data = data / 10;
-                }
-                return result = -rev;
-            }
-            return result;
-        }
+        /**
+            Rverse digits of an integer
+            Example1: x = 123, return 321
+            Example2: x = -123, return -321
 
-        public static int ReverseInteger_Online(int x)
+            Have you thought about this?
+            Here are some good questions to ask before coding. Bonus points for you if you have already thought through this!
+            If the integer's last digit is 0, what should the output be? ie, cases such as 10, 100.
+            Did you notice that the reversed integer might overflow? Assume the input is a 32-bit integer, then the reverse of 1000000003 overflows. How should you handle such cases?
+            For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
+        **/
+
+        public static int ReverseInteger_Solution01(int x)
         {
             int result = 0;
 
@@ -53,6 +35,19 @@ namespace Algorithm
             }
 
             return result;
+        }
+
+        public static int ReverseInteger_Solution02(int x)
+        {
+            long rev = 0;
+            while (x != 0)
+            {
+                rev = rev * 10 + x % 10;
+                x = x / 10;
+                if (rev > int.MaxValue || rev < int.MinValue)
+                    return 0;
+            }
+            return (int)rev;
         }
     }
 }
