@@ -1,0 +1,7 @@
+D:\C#\git\DotNetPractices\DotNetPractices\ArraysUnitTest\bin\Debug\ArraysUnitTest.dll
+D:\C#\git\DotNetPractices\DotNetPractices\ArraysUnitTest\bin\Debug\ArraysUnitTest.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\ArraysUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\C#\git\DotNetPractices\DotNetPractices\ArraysUnitTest\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\C#\git\DotNetPractices\DotNetPractices\ArraysUnitTest\obj\Debug\ArraysUnitTest.csprojResolveAssemblyReference.cache
+D:\C#\git\DotNetPractices\DotNetPractices\ArraysUnitTest\obj\Debug\ArraysUnitTest.dll
+D:\C#\git\DotNetPractices\DotNetPractices\ArraysUnitTest\obj\Debug\ArraysUnitTest.pdb

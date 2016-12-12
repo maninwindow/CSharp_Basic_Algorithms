@@ -12,7 +12,7 @@ namespace Algorithm
         {
             int data = -4321432;
             //AlgorithmQuestions.ReverseInteger(data);
-            AlgorithmQuestions.ReverseInteger_Online(data);
+            AlgorithmQuestions.ReverseInteger_Solution01(data);
         }
     }
 }
