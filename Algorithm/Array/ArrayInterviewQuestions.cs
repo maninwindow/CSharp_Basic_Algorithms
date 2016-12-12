@@ -23,6 +23,7 @@ namespace Algorithm.Array
 
         public int[] TwoSum(int[] nums, int target)
         {
+            return nums;
         }
     }
 }
