@@ -19,3 +19,11 @@ D:\C#\git\DotNetPractices\DotNetPractices\DotNetPractices\bin\Debug\DotNetZip.xm
 D:\C#\git\DotNetPractices\DotNetPractices\DotNetPractices\obj\Debug\DotNetPractices.csprojResolveAssemblyReference.cache
 D:\C#\git\DotNetPractices\DotNetPractices\DotNetPractices\obj\Debug\DotNetPractices.exe
 D:\C#\git\DotNetPractices\DotNetPractices\DotNetPractices\obj\Debug\DotNetPractices.pdb
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\DotNetPractices\bin\Debug\DotNetPractices.exe.config
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\DotNetPractices\bin\Debug\DotNetPractices.exe
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\DotNetPractices\bin\Debug\DotNetPractices.pdb
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\DotNetPractices\bin\Debug\DotNetZip.dll
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\DotNetPractices\bin\Debug\DotNetZip.xml
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\DotNetPractices\obj\Debug\DotNetPractices.csprojResolveAssemblyReference.cache
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\DotNetPractices\obj\Debug\DotNetPractices.exe
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\DotNetPractices\obj\Debug\DotNetPractices.pdb

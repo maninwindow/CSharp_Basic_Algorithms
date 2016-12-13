@@ -5,3 +5,10 @@ D:\C#\git\DotNetPractices\DotNetPractices\ArraysUnitTest\bin\Debug\zh-Hans\Micro
 D:\C#\git\DotNetPractices\DotNetPractices\ArraysUnitTest\obj\Debug\ArraysUnitTest.csprojResolveAssemblyReference.cache
 D:\C#\git\DotNetPractices\DotNetPractices\ArraysUnitTest\obj\Debug\ArraysUnitTest.dll
 D:\C#\git\DotNetPractices\DotNetPractices\ArraysUnitTest\obj\Debug\ArraysUnitTest.pdb
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\ArraysUnitTest\bin\Debug\ArraysUnitTest.dll
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\ArraysUnitTest\bin\Debug\ArraysUnitTest.pdb
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\ArraysUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\ArraysUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\ArraysUnitTest\obj\Debug\ArraysUnitTest.csprojResolveAssemblyReference.cache
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\ArraysUnitTest\obj\Debug\ArraysUnitTest.dll
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\ArraysUnitTest\obj\Debug\ArraysUnitTest.pdb

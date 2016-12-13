@@ -10,3 +10,9 @@ D:\ASP.NET\git\DotNetPractices\Arrays\obj\Debug\Arrays.pdb
 D:\ASP.NET\git\DotNetPractices\Arrays\bin\Debug\Arrays.exe
 D:\ASP.NET\git\DotNetPractices\Arrays\bin\Debug\Arrays.pdb
 D:\ASP.NET\git\DotNetPractices\Arrays\obj\Debug\ArraysPractice.csprojResolveAssemblyReference.cache
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\Arrays\bin\Debug\Arrays.exe.config
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\Arrays\bin\Debug\Arrays.exe
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\Arrays\bin\Debug\Arrays.pdb
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\Arrays\obj\Debug\ArraysPractice.csprojResolveAssemblyReference.cache
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\Arrays\obj\Debug\Arrays.exe
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\Arrays\obj\Debug\Arrays.pdb

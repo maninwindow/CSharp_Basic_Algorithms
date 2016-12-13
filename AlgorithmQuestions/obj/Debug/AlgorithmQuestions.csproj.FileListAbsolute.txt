@@ -1,0 +1,6 @@
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\AlgorithmQuestions\bin\Debug\AlgorithmQuestions.exe.config
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\AlgorithmQuestions\bin\Debug\AlgorithmQuestions.exe
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\AlgorithmQuestions\bin\Debug\AlgorithmQuestions.pdb
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\AlgorithmQuestions\obj\Debug\AlgorithmQuestions.csprojResolveAssemblyReference.cache
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\AlgorithmQuestions\obj\Debug\AlgorithmQuestions.exe
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\AlgorithmQuestions\obj\Debug\AlgorithmQuestions.pdb

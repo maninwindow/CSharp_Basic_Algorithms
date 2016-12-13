@@ -6,3 +6,9 @@ D:\C#\git\DotNetPractices\DotNetPractices\Interfaces\obj\Debug\Interfaces.pdb
 D:\ASP.NET\git\DotNetPractices\Interfaces\bin\Debug\Interfaces.exe.config
 D:\ASP.NET\git\DotNetPractices\Interfaces\obj\Debug\Interfaces.exe
 D:\ASP.NET\git\DotNetPractices\Interfaces\obj\Debug\Interfaces.pdb
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\Interfaces\bin\Debug\Interfaces.exe.config
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\Interfaces\bin\Debug\Interfaces.exe
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\Interfaces\bin\Debug\Interfaces.pdb
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\Interfaces\obj\Debug\Interfaces.exe
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\Interfaces\obj\Debug\Interfaces.pdb
