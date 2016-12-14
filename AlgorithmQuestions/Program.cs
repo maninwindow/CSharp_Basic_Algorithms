@@ -16,9 +16,10 @@ namespace AlgorithmQuestions
             //Array.ReverseInteger_Solution02(data);
 
             //Check duplicates and return the lengs of Array elements.
-            int[] nums = { 2, 2, 3, 4, 5, 5, 4, 8 };
+            int[] nums = { 1, 1, 1, 4, 4, 4, 10, 10, 1, 10 };
             //Array.RemoveDuplicates_Solution01(nums);
-            Array.RemoveDuplicates_Solution02(nums);
+            //Array.RemoveDuplicates_Solution02(nums);
+            Array.FindDisappearedNumbers(nums);
         }
     }
 }
