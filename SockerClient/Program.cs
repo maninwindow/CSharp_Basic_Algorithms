@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
+using System.Speech.Synthesis;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -54,6 +55,9 @@ namespace SocketClient
                 //string sendMessage = "client send Message Hellp" + DateTime.Now;
                 string sendMessage = Console.ReadLine();
                 byte[] byteArray = Encoding.Default.GetBytes(sendMessage);
+                //SpeechSynthesizer speech = new SpeechSynthesizer();
+                //speech.SelectVoiceByHints(VoiceGender.Male, VoiceAge.Child, 2, System.Globalization.CultureInfo.CurrentCulture);
+                //speech.Speak("你好");
                 clientSocket.Send(byteArray);
             }
 
