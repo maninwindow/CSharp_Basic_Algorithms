@@ -1,0 +1,6 @@
+D:\C#\git\DotNetPractices\DotNetPractices\SocketServer\bin\Debug\SocketServer.exe.config
+D:\C#\git\DotNetPractices\DotNetPractices\SocketServer\bin\Debug\SocketServer.exe
+D:\C#\git\DotNetPractices\DotNetPractices\SocketServer\bin\Debug\SocketServer.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\SocketServer\obj\Debug\SocketServer.exe
+D:\C#\git\DotNetPractices\DotNetPractices\SocketServer\obj\Debug\SocketServer.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\SocketServer\obj\Debug\SocketServer.csprojResolveAssemblyReference.cache

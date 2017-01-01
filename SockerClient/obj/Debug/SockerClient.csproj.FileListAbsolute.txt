@@ -1,0 +1,6 @@
+D:\C#\git\DotNetPractices\DotNetPractices\SockerClient\bin\Debug\SockerClient.exe.config
+D:\C#\git\DotNetPractices\DotNetPractices\SockerClient\bin\Debug\SockerClient.exe
+D:\C#\git\DotNetPractices\DotNetPractices\SockerClient\bin\Debug\SockerClient.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\SockerClient\obj\Debug\SockerClient.exe
+D:\C#\git\DotNetPractices\DotNetPractices\SockerClient\obj\Debug\SockerClient.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\SockerClient\obj\Debug\SockerClient.csprojResolveAssemblyReference.cache

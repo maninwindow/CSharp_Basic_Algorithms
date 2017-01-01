@@ -16,6 +16,6 @@ D:\C#\git\DotNetPractices\DotNetPractices\DotNetPractices\bin\Debug\DotNetPracti
 D:\C#\git\DotNetPractices\DotNetPractices\DotNetPractices\bin\Debug\DotNetPractices.pdb
 D:\C#\git\DotNetPractices\DotNetPractices\DotNetPractices\bin\Debug\DotNetZip.dll
 D:\C#\git\DotNetPractices\DotNetPractices\DotNetPractices\bin\Debug\DotNetZip.xml
-D:\C#\git\DotNetPractices\DotNetPractices\DotNetPractices\obj\Debug\DotNetPractices.csprojResolveAssemblyReference.cache
 D:\C#\git\DotNetPractices\DotNetPractices\DotNetPractices\obj\Debug\DotNetPractices.exe
 D:\C#\git\DotNetPractices\DotNetPractices\DotNetPractices\obj\Debug\DotNetPractices.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\DotNetPractices\obj\Debug\DotNetPractices.csprojResolveAssemblyReference.cache

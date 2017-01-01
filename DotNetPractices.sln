@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetPractices", "DotNetPractices\DotNetPractices.csproj", "{DE878F8D-C518-4BEC-B2A7-C44DBFA89E9B}"
 EndProject
@@ -17,7 +17,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTablePractice", "HashTa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterviewQuestions", "InterviewQuestions", "{481DB77F-821D-46AE-8E7B-34BFF94C82F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "Algorithm\Algorithm.csproj", "{2FE5ECF4-3885-4038-9F23-DF73D41844F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmAndDatastructure", "Algorithm\AlgorithmAndDatastructure.csproj", "{2FE5ECF4-3885-4038-9F23-DF73D41844F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Network", "Network", "{D8B6233C-D637-4D5F-BA15-CAD8B70BFE55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SockerClient", "SockerClient\SockerClient.csproj", "{425A9AD8-8DDB-4BC7-89FD-522D1ABDB639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServer", "SocketServer\SocketServer.csproj", "{16B89853-B9A8-4AC7-B3DF-A6B2B4E331F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +55,14 @@ Global
 		{2FE5ECF4-3885-4038-9F23-DF73D41844F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FE5ECF4-3885-4038-9F23-DF73D41844F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FE5ECF4-3885-4038-9F23-DF73D41844F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{425A9AD8-8DDB-4BC7-89FD-522D1ABDB639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425A9AD8-8DDB-4BC7-89FD-522D1ABDB639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425A9AD8-8DDB-4BC7-89FD-522D1ABDB639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425A9AD8-8DDB-4BC7-89FD-522D1ABDB639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16B89853-B9A8-4AC7-B3DF-A6B2B4E331F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16B89853-B9A8-4AC7-B3DF-A6B2B4E331F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16B89853-B9A8-4AC7-B3DF-A6B2B4E331F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16B89853-B9A8-4AC7-B3DF-A6B2B4E331F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,5 +72,7 @@ Global
 		{9F7F91D0-5467-4DBD-AC8C-70ED698948E5} = {003BA26A-5940-4B5D-B6FC-E9CDBC4A4021}
 		{C52BAB41-0468-412D-97F3-B0332925ED2E} = {003BA26A-5940-4B5D-B6FC-E9CDBC4A4021}
 		{2FE5ECF4-3885-4038-9F23-DF73D41844F5} = {481DB77F-821D-46AE-8E7B-34BFF94C82F6}
+		{425A9AD8-8DDB-4BC7-89FD-522D1ABDB639} = {D8B6233C-D637-4D5F-BA15-CAD8B70BFE55}
+		{16B89853-B9A8-4AC7-B3DF-A6B2B4E331F2} = {D8B6233C-D637-4D5F-BA15-CAD8B70BFE55}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,6 @@
+D:\C#\git\DotNetPractices\DotNetPractices\Algorithm\bin\Debug\Algorithm.exe.config
+D:\C#\git\DotNetPractices\DotNetPractices\Algorithm\bin\Debug\Algorithm.exe
+D:\C#\git\DotNetPractices\DotNetPractices\Algorithm\bin\Debug\Algorithm.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\Algorithm\obj\Debug\Algorithm.exe
+D:\C#\git\DotNetPractices\DotNetPractices\Algorithm\obj\Debug\Algorithm.pdb
+D:\C#\git\DotNetPractices\DotNetPractices\Algorithm\obj\Debug\AlgorithmAndDatastructure.csprojResolveAssemblyReference.cache
