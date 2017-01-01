@@ -3,3 +3,8 @@ D:\C#\git\DotNetPractices\DotNetPractices\HashTablePractice\bin\Debug\HashTableP
 D:\C#\git\DotNetPractices\DotNetPractices\HashTablePractice\bin\Debug\HashTablePractice.pdb
 D:\C#\git\DotNetPractices\DotNetPractices\HashTablePractice\obj\Debug\HashTablePractice.exe
 D:\C#\git\DotNetPractices\DotNetPractices\HashTablePractice\obj\Debug\HashTablePractice.pdb
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\HashTablePractice\bin\Debug\HashTablePractice.exe.config
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\HashTablePractice\obj\Debug\HashTablePractice.exe
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\HashTablePractice\obj\Debug\HashTablePractice.pdb
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\HashTablePractice\bin\Debug\HashTablePractice.exe
+D:\AlgorithmPractice\CSharp_Basic_Algorithms\HashTablePractice\bin\Debug\HashTablePractice.pdb
